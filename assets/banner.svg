@@ -69,7 +69,7 @@
   </g>
 
   <g opacity="0.7">
-    <rect x="86" y="38" width="20" height="200" rx="2" fill="url(#accent)"/>
+    <rect x="54" y="38" width="14" height="200" rx="2" fill="url(#accent)"/>
   </g>
 
   <g filter="url(#shadow)">
@@ -81,11 +81,11 @@
   <text x="84" y="330" font-family="Arial, Helvetica, sans-serif" font-size="84" font-weight="800" fill="#EAF8FF">Market Research &amp;</text>
   <text x="84" y="420" font-family="Arial, Helvetica, sans-serif" font-size="84" font-weight="800" fill="#EAF8FF">Business Analysis</text>
 
-  <text x="84" y="484" font-family="Arial, Helvetica, sans-serif" font-size="32" font-weight="500" fill="#D7E9F9">
-    Market Sizing | Demand Trends | Competitor &amp; OEM Analysis | Aftermarket Opportunity | Commercial Recommendations
+  <text x="84" y="484" font-family="Arial, Helvetica, sans-serif" font-size="26" font-weight="500" fill="#D7E9F9">
+    Demand Trends | Code Transition | Distributor Analysis | Vehicle Cohorts | Aftermarket Opportunity
   </text>
 
-  <g opacity="0.86">
+  <g opacity="0.86" transform="translate(420 -150)">
     <path d="M980 258L723 258C680 258 648 290 648 333V333C648 376 680 408 723 408H980C1021 408 1054 376 1054 333V333C1054 290 1021 258 980 258Z" fill="url(#panel)" stroke="#6CC9FF" stroke-opacity="0.4"/>
     <path d="M774 258V408" stroke="#D9F5FF" stroke-opacity="0.58" stroke-width="2"/>
     <path d="M829 258V408" stroke="#D9F5FF" stroke-opacity="0.58" stroke-width="2"/>
