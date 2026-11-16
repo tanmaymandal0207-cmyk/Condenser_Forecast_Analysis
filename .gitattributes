@@ -1,0 +1,8 @@
+# Normalise line endings for text; keep binaries untouched
+* text=auto
+*.md   text eol=lf
+*.svg  text eol=lf
+*.png  binary
+*.jpg  binary
+*.pdf  binary
+*.xlsx binary
