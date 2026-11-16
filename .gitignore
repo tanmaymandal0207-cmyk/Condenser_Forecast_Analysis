@@ -1,0 +1,18 @@
+# Client source data is never published in this repo
+*.xlsx
+*.xls
+*.xlsm
+*.csv
+data/
+raw/
+
+# Excel temp and lock files
+~$*
+*.tmp
+
+# OS / editor
+.DS_Store
+Thumbs.db
+desktop.ini
+.vscode/
+.idea/
