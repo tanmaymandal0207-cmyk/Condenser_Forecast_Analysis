@@ -81,6 +81,7 @@ A falling SKU is not evidence of a falling market. The study tests the alternati
 Swift_Condenser_Legacy_Analysis/
 ├── README.md                       this brief
 ├── CHANGELOG.md                    what changed and when
+├── .gitattributes / .gitignore     line endings; client data kept out
 ├── assets/
 │   └── banner.svg
 ├── research/

@@ -1,6 +1,16 @@
 # Changelog
 
-## Unreleased — 15 Nov 2026
+## Unreleased — 16 Nov 2026
+
+### Added
+- `.gitattributes`: LF for Markdown and SVG, binaries marked as binary.
+- `.gitignore`: keeps client source data (Excel, CSV, `data/`, `raw/`) and Excel lock files out of the repo.
+
+### Changed
+- `deliverables/README.md`: file index with purpose and status.
+- `research/README.md`: explains that drafts are kept unchanged and how the first draft's brand-level framing narrowed to the PC-86207 question.
+
+## 15 Nov 2026
 
 ### Changed
 - README restructured to match the other portfolio repos: badges, section links, observations table that separates findings from what they do not yet prove, actual repository tree, status and next steps.
