@@ -1,6 +1,12 @@
 # Changelog
 
-## Unreleased — 16 Nov 2026
+## Unreleased — 17 Nov 2026
+
+### Added
+- `docs/glossary.md`: definitions of challan, dispatch, FY, `PC-` codes, fitment, multi-application codes, code transition and the other terms used in the brief; linked from the methodology.
+- `docs/data-requirements.md`: the data request list for the five validation steps, with minimum fields, acceptance checks and handling rules; linked from Status & Next Steps.
+
+## 16 Nov 2026
 
 ### Added
 - `.gitattributes`: LF for Markdown and SVG, binaries marked as binary.

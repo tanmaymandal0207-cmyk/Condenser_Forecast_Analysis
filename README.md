@@ -64,6 +64,8 @@ A falling SKU is not evidence of a falling market. The study tests the alternati
 6. **Market research:** competitor products, price references and vehicle applications.
 7. **Opportunity assessment:** observations vs hypotheses, and the data needed to validate each opportunity.
 
+Terms are defined in the [glossary](docs/glossary.md).
+
 **Tools:** Excel · Power Query · XLOOKUP and fuzzy matching · pivot aggregation · cohort analysis · aftermarket desk research.
 
 ## ⚠️ Data Limitations
@@ -84,6 +86,9 @@ Swift_Condenser_Legacy_Analysis/
 ├── .gitattributes / .gitignore     line endings; client data kept out
 ├── assets/
 │   └── banner.svg
+├── docs/
+│   ├── glossary.md                 challan, fitment, PC- codes and other terms
+│   └── data-requirements.md        data request list for the validation steps
 ├── research/
 │   ├── README.md
 │   └── 01-first-draft.md           original working draft, kept unchanged for traceability
@@ -98,6 +103,8 @@ Source challans, distributor-level transactions and price lists are **not** publ
 ## 🚦 Status & Next Steps
 
 **Status:** first draft, under validation.
+
+The data needed for each step below, and the checks it must pass, is listed in [data requirements](docs/data-requirements.md).
 
 1. Classify PC-86539 (and other multi-fitment codes) by vehicle application.
 2. Reconcile provisional post-2019 figures against the original records.
