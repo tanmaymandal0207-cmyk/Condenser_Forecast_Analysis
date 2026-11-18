@@ -1,5 +1,12 @@
 # Changelog
 
+## 18 Nov 2026 — Renamed to Condenser Forecast Analysis
+
+### Changed
+- Repository renamed from `Swift_Condenser_Legacy_Analysis` to `Condenser_Forecast_Analysis`, as the project now covers the condenser forecasting pilot (Phase 2), not only the PC-86207 demand-gap study (Phase 1). GitHub redirects the old URL.
+- `assets/banner.svg`: new banner, "Condenser Forecast Analysis", with a chart of condenser pieces by financial year (FY 2022–23 highlighted, FY 2026–27 partial), a trend line and a dashed forecast band.
+- README: banner alt text, overview line and repository tree updated to the new name.
+
 ## 18 Nov 2026 — Phase 2: forecasting pilot data foundation
 
 ### Added

@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="assets/banner.svg" alt="Swift Condenser Market Research &amp; Business Analysis" width="100%">
+  <img src="assets/banner.svg" alt="Condenser Forecast Analysis" width="100%">
 </p>
 
 <p align="center">
@@ -25,7 +25,7 @@
 
 ## 📌 Overview
 
-A demand-gap study for an automotive parts distributor (anonymised).
+**Condenser Forecast Analysis** (formerly *Swift Condenser Legacy Analysis*): sales history, data foundation and demand forecasting for the AC condenser range of an automotive parts distributor (anonymised). It began as a demand-gap study of one Swift condenser code.
 
 It looks at the historical dispatch pattern of AC condensers for the Maruti Suzuki **Swift** and **Swift Dzire**, centred on the client's own-brand code **PC-86207**, and asks why its volumes collapsed after FY 2012–13.
 
@@ -131,7 +131,7 @@ Terms are defined in the [glossary](docs/glossary.md).
 ## 📂 Repository Structure
 
 ```text
-Swift_Condenser_Legacy_Analysis/
+Condenser_Forecast_Analysis/
 ├── README.md                       this brief
 ├── CHANGELOG.md                    what changed and when
 ├── .gitattributes / .gitignore     line endings; client data kept out
