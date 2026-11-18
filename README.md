@@ -14,9 +14,9 @@
 <p align="center">
   <a href="#-business-question">Question</a> ·
   <a href="#-key-observations">Observations</a> ·
-  <a href="#-phase-2-forecasting-pilot-data-foundation">Pilot</a> ·
+  <a href="#️-phase-2-forecasting-pilot-data-foundation">Pilot</a> ·
   <a href="#-methodology">Methodology</a> ·
-  <a href="#-data-limitations">Limitations</a> ·
+  <a href="#️-data-limitations">Limitations</a> ·
   <a href="#-repository-structure">Structure</a> ·
   <a href="#-status--next-steps">Status</a>
 </p>
@@ -94,8 +94,8 @@ flowchart LR
 
 ```mermaid
 xychart-beta
-    title "Condenser pieces by financial year (Apr–Mar)"
-    x-axis ["09-10","10-11","11-12","12-13","13-14","14-15","15-16","16-17","17-18","18-19","19-20","20-21","21-22","22-23","23-24","24-25","25-26","26-27*"]
+    title "Condenser pieces by financial year (label = year FY starts in April)"
+    x-axis ["09","10","11","12","13","14","15","16","17","18","19","20","21","22","23","24","25","26*"]
     y-axis "Pieces" 0 --> 36000
     bar [7483,12248,16053,20091,20673,19742,17984,17340,19374,17481,20188,16362,18193,34783,24100,24779,16281,14942]
 ```
