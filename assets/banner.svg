@@ -9,6 +9,14 @@
       <stop stop-color="#1CD2FF"/>
       <stop offset="1" stop-color="#1D6EF7"/>
     </linearGradient>
+    <linearGradient id="bar" x1="0" y1="0" x2="0" y2="1">
+      <stop stop-color="#2FA8F5"/>
+      <stop offset="1" stop-color="#0D4C80"/>
+    </linearGradient>
+    <linearGradient id="hot" x1="0" y1="0" x2="0" y2="1">
+      <stop stop-color="#F5B53A"/>
+      <stop offset="1" stop-color="#8A5A08"/>
+    </linearGradient>
     <linearGradient id="panel" x1="0" y1="0" x2="1" y2="1">
       <stop stop-color="#0D2F4C"/>
       <stop offset="1" stop-color="#0B2038"/>
@@ -20,52 +28,9 @@
 
   <rect width="1600" height="540" fill="url(#bg)"/>
 
-  <g opacity="0.34">
-    <path d="M0 0H1600V540H0V0Z" fill="url(#bg)"/>
-    <g stroke="#1C3D5D" stroke-width="1">
-      <path d="M0 60H1600"/>
-      <path d="M0 120H1600"/>
-      <path d="M0 180H1600"/>
-      <path d="M0 240H1600"/>
-      <path d="M0 300H1600"/>
-      <path d="M0 360H1600"/>
-      <path d="M0 420H1600"/>
-      <path d="M0 480H1600"/>
-      <path d="M120 0V540"/>
-      <path d="M240 0V540"/>
-      <path d="M360 0V540"/>
-      <path d="M480 0V540"/>
-      <path d="M600 0V540"/>
-      <path d="M720 0V540"/>
-      <path d="M840 0V540"/>
-      <path d="M960 0V540"/>
-      <path d="M1080 0V540"/>
-      <path d="M1200 0V540"/>
-      <path d="M1320 0V540"/>
-      <path d="M1440 0V540"/>
-    </g>
-  </g>
-
-  <g opacity="0.18">
-    <path d="M1060 110 L1260 110" stroke="#1ED9FF" stroke-width="3"/>
-    <path d="M1120 110 L1255 110" stroke="#1ED9FF" stroke-width="3"/>
-    <path d="M1060 140 L1225 140" stroke="#1989FF" stroke-width="2"/>
-  </g>
-
-  <g opacity="0.28">
-    <circle cx="1510" cy="100" r="3" fill="#1ED9FF"/>
-    <circle cx="1460" cy="170" r="4" fill="#1ED9FF"/>
-    <circle cx="1390" cy="230" r="3" fill="#1ED9FF"/>
-    <circle cx="1270" cy="250" r="5" fill="#1ED9FF"/>
-    <circle cx="1185" cy="195" r="4" fill="#1ED9FF"/>
-    <circle cx="1085" cy="105" r="4" fill="#1ED9FF"/>
-    <circle cx="1015" cy="150" r="3" fill="#1ED9FF"/>
-  </g>
-
-  <g opacity="0.35">
-    <path d="M900 90L1045 90" stroke="#1ED9FF" stroke-width="2"/>
-    <path d="M900 112L1020 112" stroke="#1ED9FF" stroke-width="2"/>
-    <path d="M900 134L990 134" stroke="#1ED9FF" stroke-width="2"/>
+  <g opacity="0.34" stroke="#1C3D5D" stroke-width="1">
+    <path d="M0 60H1600"/><path d="M0 120H1600"/><path d="M0 180H1600"/><path d="M0 240H1600"/><path d="M0 300H1600"/><path d="M0 360H1600"/><path d="M0 420H1600"/><path d="M0 480H1600"/>
+    <path d="M120 0V540"/><path d="M240 0V540"/><path d="M360 0V540"/><path d="M480 0V540"/><path d="M600 0V540"/><path d="M720 0V540"/><path d="M840 0V540"/><path d="M960 0V540"/><path d="M1080 0V540"/><path d="M1200 0V540"/><path d="M1320 0V540"/><path d="M1440 0V540"/><path d="M1560 0V540"/>
   </g>
 
   <g opacity="0.7">
@@ -73,40 +38,37 @@
   </g>
 
   <g filter="url(#shadow)">
-    <rect x="70" y="50" width="168" height="52" rx="14" fill="#0B6AB0" fill-opacity="0.9"/>
-    <text x="90" y="87" font-family="Arial, Helvetica, sans-serif" font-size="32" font-weight="700" fill="#F2FBFF">PC-86207</text>
+    <rect x="70" y="50" width="330" height="52" rx="14" fill="#0B6AB0" fill-opacity="0.9"/>
+    <text x="90" y="87" font-family="Arial, Helvetica, sans-serif" font-size="28" font-weight="700" fill="#F2FBFF">FORECASTING PILOT</text>
   </g>
 
-  <text x="84" y="210" font-family="Arial, Helvetica, sans-serif" font-size="92" font-weight="800" fill="#EAF8FF">Swift Condenser</text>
-  <text x="84" y="330" font-family="Arial, Helvetica, sans-serif" font-size="84" font-weight="800" fill="#EAF8FF">Market Research &amp;</text>
-  <text x="84" y="420" font-family="Arial, Helvetica, sans-serif" font-size="84" font-weight="800" fill="#EAF8FF">Business Analysis</text>
+  <text x="84" y="220" font-family="Arial, Helvetica, sans-serif" font-size="104" font-weight="800" fill="#EAF8FF">Condenser</text>
+  <text x="84" y="330" font-family="Arial, Helvetica, sans-serif" font-size="84" font-weight="800" fill="#EAF8FF">Forecast Analysis</text>
+  <text x="86" y="392" font-family="Arial, Helvetica, sans-serif" font-size="30" font-weight="500" fill="#7BD7FF">Automotive AC aftermarket · 17.5 years of sales · 2009–2026</text>
 
-  <text x="84" y="484" font-family="Arial, Helvetica, sans-serif" font-size="26" font-weight="500" fill="#D7E9F9">
-    Demand Trends | Code Transition | Distributor Analysis | Vehicle Cohorts | Aftermarket Opportunity
-  </text>
+  <text x="84" y="484" font-family="Arial, Helvetica, sans-serif" font-size="24" font-weight="500" fill="#D7E9F9">Data Migration | Demand History | Trend &amp; Seasonality | External Factors | Forecast</text>
 
-  <g opacity="0.86" transform="translate(420 -150)">
-    <path d="M980 258L723 258C680 258 648 290 648 333V333C648 376 680 408 723 408H980C1021 408 1054 376 1054 333V333C1054 290 1021 258 980 258Z" fill="url(#panel)" stroke="#6CC9FF" stroke-opacity="0.4"/>
-    <path d="M774 258V408" stroke="#D9F5FF" stroke-opacity="0.58" stroke-width="2"/>
-    <path d="M829 258V408" stroke="#D9F5FF" stroke-opacity="0.58" stroke-width="2"/>
-    <path d="M885 258V408" stroke="#D9F5FF" stroke-opacity="0.58" stroke-width="2"/>
-    <path d="M940 258V408" stroke="#D9F5FF" stroke-opacity="0.58" stroke-width="2"/>
-    <path d="M995 258V408" stroke="#D9F5FF" stroke-opacity="0.58" stroke-width="2"/>
-    <path d="M720 258H980" stroke="#D9F5FF" stroke-opacity="0.8" stroke-width="8"/>
-    <path d="M720 408H980" stroke="#D9F5FF" stroke-opacity="0.8" stroke-width="8"/>
-    <path d="M678 295H648V348H678" stroke="#7BD7FF" stroke-width="6" stroke-linecap="round"/>
-    <path d="M1045 295H1075V348H1045" stroke="#7BD7FF" stroke-width="6" stroke-linecap="round"/>
+  <!-- chart: condenser pieces by financial year, trend and forecast band -->
+  <g>
+    <path d="M1065 420H1545" stroke="#6CC9FF" stroke-opacity="0.5" stroke-width="2"/>
+    <rect x="1077.5" y="363.9" width="15.6" height="56.1" rx="3" fill="url(#bar)" fill-opacity="0.95"/><rect x="1098.1" y="328.1" width="15.6" height="91.9" rx="3" fill="url(#bar)" fill-opacity="0.95"/><rect x="1118.6" y="299.6" width="15.6" height="120.4" rx="3" fill="url(#bar)" fill-opacity="0.95"/><rect x="1139.2" y="269.3" width="15.6" height="150.7" rx="3" fill="url(#bar)" fill-opacity="0.95"/><rect x="1159.7" y="265.0" width="15.6" height="155.0" rx="3" fill="url(#bar)" fill-opacity="0.95"/><rect x="1180.3" y="271.9" width="15.6" height="148.1" rx="3" fill="url(#bar)" fill-opacity="0.95"/><rect x="1200.8" y="285.1" width="15.6" height="134.9" rx="3" fill="url(#bar)" fill-opacity="0.95"/><rect x="1221.4" y="289.9" width="15.6" height="130.1" rx="3" fill="url(#bar)" fill-opacity="0.95"/><rect x="1241.9" y="274.7" width="15.6" height="145.3" rx="3" fill="url(#bar)" fill-opacity="0.95"/><rect x="1262.5" y="288.9" width="15.6" height="131.1" rx="3" fill="url(#bar)" fill-opacity="0.95"/><rect x="1283.1" y="268.6" width="15.6" height="151.4" rx="3" fill="url(#bar)" fill-opacity="0.95"/><rect x="1303.6" y="297.3" width="15.6" height="122.7" rx="3" fill="url(#bar)" fill-opacity="0.95"/><rect x="1324.2" y="283.6" width="15.6" height="136.4" rx="3" fill="url(#bar)" fill-opacity="0.95"/><rect x="1344.7" y="159.1" width="15.6" height="260.9" rx="3" fill="url(#hot)" fill-opacity="0.95"/><rect x="1365.3" y="239.2" width="15.6" height="180.8" rx="3" fill="url(#bar)" fill-opacity="0.95"/><rect x="1385.8" y="234.2" width="15.6" height="185.8" rx="3" fill="url(#bar)" fill-opacity="0.95"/><rect x="1406.4" y="297.9" width="15.6" height="122.1" rx="3" fill="url(#bar)" fill-opacity="0.95"/><rect x="1426.9" y="307.9" width="15.6" height="112.1" rx="3" fill="url(#bar)" fill-opacity="0.45"/>
+    <path d="M1434.7 280.0 L1471.0 246.0 L1497.0 214.0 L1523.0 208.0 L1523.0 304.0 L1497.0 286.0 L1471.0 286.0 Z" fill="#1CD2FF" fill-opacity="0.14"/>
+    <path d="M1085.3 363.9 L1105.8 346.0 L1126.4 330.5 L1146.9 299.0 L1167.5 278.0 L1188.1 268.7 L1208.6 274.0 L1229.2 282.3 L1249.7 283.3 L1270.3 284.5 L1290.8 277.4 L1311.4 284.9 L1331.9 283.1 L1352.5 246.7 L1373.1 227.3 L1393.6 210.8 L1414.2 257.1 L1434.7 280.0" stroke="#EAF8FF" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M1434.7 280.0 L1471.0 266.0 L1497.0 250.0 L1523.0 256.0" stroke="#1CD2FF" stroke-width="4" stroke-dasharray="10 9" stroke-linecap="round"/>
+    <circle cx="1471.0" cy="266.0" r="6" fill="#1CD2FF"/><circle cx="1497.0" cy="250.0" r="6" fill="#1CD2FF"/><circle cx="1523.0" cy="256.0" r="6" fill="#1CD2FF"/>
+    <text x="1075" y="452" font-family="Arial, Helvetica, sans-serif" font-size="20" fill="#9FC3DE">FY09</text>
+    <text x="1393" y="452" font-family="Arial, Helvetica, sans-serif" font-size="20" fill="#9FC3DE">FY26</text>
+    <text x="1465" y="452" font-family="Arial, Helvetica, sans-serif" font-size="20" font-weight="700" fill="#1CD2FF">forecast</text>
   </g>
 
-  <g opacity="0.9">
-    <path d="M1128 356C1168 326 1211 314 1267 316C1340 319 1408 350 1458 403L1440 425C1399 381 1344 355 1288 352C1238 350 1187 363 1148 393L1128 356Z" fill="#0B2E4A"/>
-    <path d="M1187 338C1222 315 1265 304 1315 308C1390 314 1452 354 1495 406L1474 416C1438 376 1380 345 1304 340C1255 338 1212 347 1187 338Z" fill="#0F3E5F"/>
-    <path d="M1188 338C1222 315 1266 302 1316 307C1346 310 1371 320 1393 336L1362 380C1332 373 1299 369 1267 370C1234 372 1205 378 1183 389L1188 338Z" fill="#123F5F"/>
-    <path d="M1157 387L1132 410C1111 392 1099 368 1098 347L1126 342C1128 368 1135 384 1157 387Z" fill="#0F2638"/>
-    <path d="M1448 405L1508 417C1493 449 1461 470 1419 480L1391 447C1421 437 1439 423 1448 405Z" fill="#0E2437"/>
-    <circle cx="1208" cy="415" r="28" fill="#071E32"/>
-    <circle cx="1208" cy="415" r="18" fill="#081C2C"/>
-    <circle cx="1363" cy="415" r="28" fill="#071E32"/>
-    <circle cx="1363" cy="415" r="18" fill="#081C2C"/>
+  <!-- condenser core icon -->
+  <g opacity="0.9" transform="translate(1095 62)">
+    <rect x="0" y="0" width="150" height="58" rx="10" fill="url(#panel)" stroke="#6CC9FF" stroke-opacity="0.45"/>
+    <path d="M22 6V52" stroke="#D9F5FF" stroke-opacity="0.55" stroke-width="2"/><path d="M40 6V52" stroke="#D9F5FF" stroke-opacity="0.55" stroke-width="2"/><path d="M58 6V52" stroke="#D9F5FF" stroke-opacity="0.55" stroke-width="2"/><path d="M76 6V52" stroke="#D9F5FF" stroke-opacity="0.55" stroke-width="2"/><path d="M94 6V52" stroke="#D9F5FF" stroke-opacity="0.55" stroke-width="2"/><path d="M112 6V52" stroke="#D9F5FF" stroke-opacity="0.55" stroke-width="2"/><path d="M130 6V52" stroke="#D9F5FF" stroke-opacity="0.55" stroke-width="2"/>
+    <path d="M6 4H144" stroke="#D9F5FF" stroke-opacity="0.8" stroke-width="5"/>
+    <path d="M6 54H144" stroke="#D9F5FF" stroke-opacity="0.8" stroke-width="5"/>
+    <path d="M-8 16H-18V42H-8" stroke="#7BD7FF" stroke-width="4" stroke-linecap="round"/>
+    <path d="M158 16H168V42H158" stroke="#7BD7FF" stroke-width="4" stroke-linecap="round"/>
   </g>
+  <text x="1285" y="98" font-family="Arial, Helvetica, sans-serif" font-size="20" font-weight="600" fill="#9FC3DE">pieces sold per year</text>
 </svg>
