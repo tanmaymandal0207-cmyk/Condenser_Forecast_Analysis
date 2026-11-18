@@ -5,6 +5,9 @@
 *.csv
 data/
 raw/
+out/
+*.pdf
+*.pkl
 
 # Excel temp and lock files
 ~$*
