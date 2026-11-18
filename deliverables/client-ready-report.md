@@ -33,7 +33,7 @@ This report sets out what the data shows today, what it cannot show yet, and the
 ## 4. What the data cannot show yet
 
 - Swift-specific volume inside multi-fitment codes such as PC-86539.
-- Whether post-2019 figures hold up: they are provisional until reconciled to source transactions.
+- Whether post-2019 figures hold up. *Update 18 Nov 2026:* the 2019–2026 yearly files are now loaded and reconciled to their own totals ([status report](migration-status-report.md)). Code-level figures stay provisional until the client confirms 170 new codes and the Apr–May 2019 overlap.
 - Whether any distributor replaced the client with another supplier.
 - Current, comparable market prices.
 
@@ -46,6 +46,12 @@ This report sets out what the data shows today, what it cannot show yet, and the
 | 3 | Distributor purchase history across all condenser codes | Full purchase ledger by distributor | Whether demand moved code, or moved supplier |
 | 4 | Dated, like-for-like competitor quotes | Spec, fitment, quality, taxes, margins | Whether price explains lost share |
 | 5 | Vehicle cohort sizing for the repair age | Registration / sales cohorts | Size of the addressable replacement market |
+
+## 5a. Update from the 2019–2026 data
+
+- PC-86207 still sells in small volumes: 157 units in FY 2019–20, falling to 14 in Apr–Oct 2026.
+- The client's master list names **PC-86539** as *Swift (new)* (14,135 units Apr 2019 – Oct 2026 with its Q5 grade) and a separate **PC-86815** for the *Swift 2017* generation (1,606 units since Jun 2019).
+- This supports a code transition by vehicle generation. Step 1 is still needed, because challan descriptions for PC-86539 also name other models.
 
 ## 6. Decisions this supports
 

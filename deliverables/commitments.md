@@ -30,6 +30,7 @@ Explain the PC-86207 Swift / Swift Dzire condenser decline with evidence, and id
 - Raw customer records, distributor transactions and proprietary prices stay out of this repository.
 - Client name, brand and part-code prefix are anonymised in all published material.
 - Original working drafts are kept unchanged; revisions are new versions, logged in [CHANGELOG.md](../CHANGELOG.md).
+- Source tables are loaded as received and never edited; every cleaning rule and client decision is stored as its own table so it can be audited and re-run.
 
 ## Deliverables
 
@@ -39,3 +40,6 @@ Explain the PC-86207 Swift / Swift Dzire condenser decline with evidence, and id
 | Research brief | [README.md](../README.md) | Done |
 | Client report | [client-ready-report.md](client-ready-report.md) | Draft, pending validation |
 | Validated findings and presentation | — | After validation steps 1–5 |
+| Phase 2 data foundation (database, checks, SQL) | [data-model.md](../docs/data-model.md), [sql/](../sql/) | Done, provisional on open items |
+| Phase 2 migration status report | [migration-status-report.md](migration-status-report.md) | Sent, awaiting client answers |
+| Quarterly condenser forecast | — | After open items A–C |
