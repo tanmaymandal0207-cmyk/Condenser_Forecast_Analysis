@@ -1,5 +1,24 @@
 # Changelog
 
+## 18 Nov 2026 — Phase 2: forecasting pilot data foundation
+
+### Added
+- `docs/data-model.md`: star schema for the condenser pilot (ER diagram), monthly grain with FY-quarter roll-up, source cut-over rule (challan register to Mar 2019, Excel files from Apr 2019), code-matching rules and the checks run after each load.
+- `sql/`: BigQuery scripts for load checks, client code decisions, the combined monthly and quarterly condenser series, and a one-row validation summary. Placeholder project names and the anonymised `PC-` pattern.
+- `pipeline/excel_to_long.py`: loads the yearly sales workbooks, stops if a file does not reconcile to its *Totals* row, matches condenser codes to the master list and writes the BigQuery load files. Reproduces the client run exactly (38,114 rows; 169,628 condenser pcs).
+- `deliverables/migration-status-report.md`: anonymised version of the status report sent to the client: progress, checks, volumes by financial year and open items A–F.
+- Glossary terms for Phase 2 (master list, code map, grain, FY quarter, cut-over, Q5 grade, provisional).
+
+### Changed
+- README: two-phase overview, Phase 2 section with data-flow and FY volume charts, updated observation on PC-86207 / PC-86539 / PC-86815 from the 2019–2026 data, data limitations, repository tree, and a combined status table.
+- `deliverables/client-ready-report.md`: section 5a with the 2019–2026 update; post-2019 limitation updated.
+- `deliverables/commitments.md`, `deliverables/README.md`, `docs/data-requirements.md`: Phase 2 deliverables and data status.
+- `.gitignore`: also excludes `out/`, PDFs and pickles, so client exports and the client PDF stay out.
+
+### Results
+- 47 of 47 old challan codes resolved with the client (18 auto, 16 accepted, 2 kept as own parts, 11 excluded = 2,742 pcs).
+- 0 unmapped codes, 0 duplicate parts; 338,096.5 condenser pcs, Apr 2009 – Oct 2026.
+
 ## Unreleased — 17 Nov 2026
 
 ### Added
