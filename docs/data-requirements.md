@@ -10,6 +10,13 @@ The five validation steps in the [client report](../deliverables/client-ready-re
 | 4 | Refresh competitor pricing | Dated quotations for comparable condensers | Supplier, part / OEM reference, fitment, price, tax treatment, quote date | Like-for-like on fitment and tax; quote date within the last 6 months |
 | 5 | Size the replacement market | Swift / Dzire sales or registration cohorts | Model, generation, year, units | Source and year stated; cohorts align with the fitment mapping |
 
+## Status (18 Nov 2026)
+
+| # | Status |
+|---|---|
+| 2 | Partly received: yearly sales files Apr 2019 – Oct 2026 (part code, name, monthly pieces). Loaded and reconciled to file totals. Not transaction-level, so Apr–May 2019 and code-level figures await client confirmation ([status report](../deliverables/migration-status-report.md)). |
+| 1, 3, 4, 5 | Not yet received. |
+
 ## Handling
 
 - Extracts stay outside this repository (`.gitignore` blocks Excel and CSV files).
