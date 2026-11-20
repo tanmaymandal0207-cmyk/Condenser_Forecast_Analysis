@@ -173,6 +173,12 @@ The data needed for each step below, and the checks it must pass, is listed in [
 | 8 | Refresh competitor pricing with dated, like-for-like quotations | 1 | Open |
 | 9 | Non-condenser parts | 2 | Later stages |
 
+## 🔗 Related Projects
+
+- [Inventory Reconciliation](https://github.com/tanmaymandal0207-cmyk/inventory-reconciliation): challan vs stock reconciliation with an audit register, using the same anonymised `PC-` part codes
+- [Commercial Intelligence Dashboard](https://github.com/tanmaymandal0207-cmyk/Commercial-Intelligence-Dashboard): Power BI revenue, pricing and lifecycle analysis across an automotive product portfolio
+- [SQL Business Problems](https://github.com/tanmaymandal0207-cmyk/sql-business-problems): problem → SQL → validation case studies in BigQuery
+
 ## 🔒 Data Privacy
 
 Built on real commercial records. The client name, its brand and its part-code prefix are anonymised (`PC-` prefix, as in [Inventory Reconciliation](https://github.com/tanmaymandal0207-cmyk/inventory-reconciliation)). Raw customer records, distributor-level transactions, proprietary pricing, the client's Excel files and the database extracts are not in this repository. The SQL uses placeholder project and dataset names, and the code pattern uses the anonymised prefix. Vehicle models are public information and are kept.
