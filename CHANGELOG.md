@@ -1,5 +1,11 @@
 # Changelog
 
+## 21 Nov 2026 — README cross-links
+
+### Added
+- README: Related Projects section linking Inventory Reconciliation, Commercial Intelligence Dashboard and SQL Business Problems (20 Nov 2026).
+- README: LinkedIn link in the author footer.
+
 ## 18 Nov 2026 — Renamed to Condenser Forecast Analysis
 
 ### Changed
