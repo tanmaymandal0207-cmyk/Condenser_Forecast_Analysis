@@ -18,7 +18,8 @@
   <a href="#-methodology">Methodology</a> ·
   <a href="#️-data-limitations">Limitations</a> ·
   <a href="#-repository-structure">Structure</a> ·
-  <a href="#-status--next-steps">Status</a>
+  <a href="#-status--next-steps">Status</a> ·
+  <a href="#-related-projects">Related</a>
 </p>
 
 ---
