@@ -5,6 +5,7 @@
 ### Added
 - README: Related Projects section linking Inventory Reconciliation, Commercial Intelligence Dashboard and SQL Business Problems (20 Nov 2026).
 - README: LinkedIn link in the author footer.
+- README: Related added to the section navigation (22 Nov 2026) and a back-to-top link above the author footer (23 Nov 2026).
 
 ## 18 Nov 2026 — Renamed to Condenser Forecast Analysis
 
