@@ -184,6 +184,8 @@ The data needed for each step below, and the checks it must pass, is listed in [
 
 Built on real commercial records. The client name, its brand and its part-code prefix are anonymised (`PC-` prefix, as in [Inventory Reconciliation](https://github.com/tanmaymandal0207-cmyk/inventory-reconciliation)). Raw customer records, distributor-level transactions, proprietary pricing, the client's Excel files and the database extracts are not in this repository. The SQL uses placeholder project and dataset names, and the code pattern uses the anonymised prefix. Vehicle models are public information and are kept.
 
+<p align="right"><a href="#top">↑ Back to top</a></p>
+
 ---
 
 **Author:** Tanmay Mandal, Business Analysis · Operations · ERP · [LinkedIn](https://www.linkedin.com/in/tanmay-mandal-286623247)
