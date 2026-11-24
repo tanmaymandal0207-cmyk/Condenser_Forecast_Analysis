@@ -1,5 +1,7 @@
 # Data Model (Phase 2)
 
+[← Back to README](../README.md)
+
 How the forecasting pilot stores condenser sales. Built in Google BigQuery; the same design works in any SQL database.
 
 ## Design goals
