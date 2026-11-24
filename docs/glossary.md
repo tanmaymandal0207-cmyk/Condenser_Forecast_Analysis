@@ -1,5 +1,7 @@
 # Glossary
 
+[← Back to README](../README.md)
+
 Terms used in the brief, the client report and the commitments.
 
 | Term | Meaning in this study |
